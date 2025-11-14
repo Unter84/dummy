@@ -17,7 +17,7 @@ You load a harmless test driver to study how Windows logs driver installation an
 Place **test.sys** in the directory where you will run the command. Example:
 
 ```
-C:\Users\mfhus\OneDrive\Desktop\
+C:\Users\***\Desktop\
 ```
 
 ### 2. Open an elevated Command Prompt
@@ -31,7 +31,7 @@ C:\Users\mfhus\OneDrive\Desktop\
 Run this command inside the directory containing **test.sys**:
 
 ```
-sc create notsuspicious type=kernel start=demand error=normal binpath=C:\Users\mfhus\OneDrive\Desktop\test.sys displayname="Nothing to see here"
+sc create notsuspicious type=kernel start=demand error=normal binpath=C:\Users\***\Desktop\test.sys displayname="Nothing to see here"
 ```
 
 ### 4. Start the driver
